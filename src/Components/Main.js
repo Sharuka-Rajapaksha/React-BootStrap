@@ -1,6 +1,8 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
+
 
 export default function Main() {
   return (
@@ -53,9 +55,13 @@ export default function Main() {
           This is a {variant} alert—check it out!
         </Alert>
       ))}
-    </>
-          
+    </>          
         </div>
+
+        <Button variant="primary">Primary</Button>{' '}
+        <Button variant="secondary">Secondary</Button>{' '}
+        <Button variant="danger">Danger</Button>{' '}
+
 
     </div>
   )
